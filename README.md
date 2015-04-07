@@ -1,3 +1,4 @@
+#Working Maps and Code
 ##Maps
 ![map1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/bldg_distance.png)
 
@@ -27,3 +28,52 @@
 	* [04-combine-tables.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/04-combine-tables.ipynb)
 	* [05-plots.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/05-plots.ipynb)
 
+#Completed Maps and Code	
+	
+	
+#To Do:
+
+EB, RC, SG, DS
+
+#Outline:
+1) Front Matter
+
+* Title page (page 1)
+* Executive summary (page 1)
+* Table of contents (page 2)
+* Lists of figures and tables (page 2)
+
+2) Introduction
+
+* Statement of the research problem
+* Project purpose, background, and context
+* Main objectives and contributions of the study
+* Spatial questions and hypotheses
+* Study area description, location, and context
+
+3) Research Design
+
+* Literature Review (at least 3 scholarly)
+* Conceptual framework and definition of key terms
+* Description of concepts
+
+4) Methods
+
+* Description and operationalization of data
+* Data analysis and modeling (bulleted)
+
+
+5) Results & Discussion
+
+* Results of data analyses
+* Presentation of results in text, figures, and tables
+* Review of results in relation to spatial hypotheses and research problem
+* Discussion of results in the context of the project background
+* Conclusions and recommendations based on results
+* Recommendations for future studies
+
+6) References	
+
+* Data Source References (last page)
+* Works Cited
+* Appendices (if neccessary)
