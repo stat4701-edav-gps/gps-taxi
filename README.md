@@ -18,3 +18,6 @@
 
 ##Maps
 ![map](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/bldg_distance.png)
+
+##Plots
+![plot_1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/plot_1.png)
