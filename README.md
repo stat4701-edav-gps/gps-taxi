@@ -13,6 +13,8 @@
 ###[Roadbed Data](https://data.cityofnewyork.us/City-Government/Roadbed/xgwd-7vhd)
 
 ##Code and Repo's
+* [Emilie's Repo](https://github.com/embruze/edav/blob/gh-pages/_posts/2015-03-30-redsproject.md)
+
 * [Danny's old repo](https://github.com/nygeog/gps_urban)
 
 * [201408_descriptive_stats](https://github.com/nygeog/taxi/tree/master/tasks/201408_descriptive_stats) See link for code. 
@@ -37,6 +39,14 @@
 #To Do:
 
 EB, RC, SG, DS
+
+Sankara, Emilie and I met yesterday and here are next steps. Is this possible to be done over the weekend?:
+
+1. Richie - Pull one day's worth of data and try to do some clustering. Let's use what Danny posted for Feb 26, 2013
+2. Danny - Use that data to plot on a map. Danny, did you have ideas on what specifically will be useful? We thought we'd like to see how the plot would look if overlaid and how popular some places are.
+3. Emilie/Sankara - Write up the plan.
+
+Let me know if I missed anything. Let's reconvene Tuesday.
 
 #Outline:
 1) Front Matter
