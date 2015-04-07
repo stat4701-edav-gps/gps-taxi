@@ -32,7 +32,7 @@
 
 #Data
 ###[Sample January 1, 2013 Pickups Only](https://github.com/stat4701-edav-gps/gps-taxi/blob/master/data/p_20130101_avg_dist.csv)	
-![data_shot](https://github.com/stat4701-edav-gps/gps-taxi/blob/master/data/p_20130101_avg_dist.csv)
+![data_shot](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/data_shot.png)
 	
 #To Do:
 
