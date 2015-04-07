@@ -40,6 +40,10 @@
 	
 #To Do:
 
+* Consider no longer using Census Blocks as larger bocks have a tendency to have larger distances. Perhaps this should in fact be an overlayed GRID. 
+
+
+
 EB, RC, SG, DS
 
 Sankara, Emilie and I met yesterday and here are next steps. Is this possible to be done over the weekend?:
