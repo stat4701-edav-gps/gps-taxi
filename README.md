@@ -9,7 +9,7 @@
 ##Plots
 ![plot_1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/plot_1.png)
 
-##Data
+##Input Spatial Data
 ###[Roadbed Data](https://data.cityofnewyork.us/City-Government/Roadbed/xgwd-7vhd)
 
 ##Code and Repo's
