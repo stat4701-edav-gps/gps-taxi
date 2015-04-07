@@ -28,8 +28,11 @@
 	* [04-combine-tables.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/04-combine-tables.ipynb)
 	* [05-plots.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/05-plots.ipynb)
 
-#Completed Maps and Code	
-	
+#Completed Maps and Code
+
+#Data
+###[Sample January 1, 2013 Pickups Only](https://github.com/stat4701-edav-gps/gps-taxi/blob/master/data/p_20130101_avg_dist.csv)	
+![data_shot](https://github.com/stat4701-edav-gps/gps-taxi/blob/master/data/p_20130101_avg_dist.csv)
 	
 #To Do:
 
