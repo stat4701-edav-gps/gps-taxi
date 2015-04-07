@@ -17,3 +17,4 @@
 	* [05-plots.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/05-plots.ipynb)
 
 ##Maps
+![map](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/bldg_distance.png)
