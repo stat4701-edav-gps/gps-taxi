@@ -9,6 +9,14 @@
 ##Plots
 ![plot_1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/plot_1.png)
 
+##Concept
+###Google Earth screenshot
+![img/ge.png](img/ge.png)
+###Building and neighborhood geography
+![img/3dbldg.png](img/3dbldg.png)
+###Building Volume Spread over the entire neighborhood
+![img/bulk.png](img/bulk.png)
+
 ##Input Spatial Data
 ###[Roadbed Data](https://data.cityofnewyork.us/City-Government/Roadbed/xgwd-7vhd)
 
