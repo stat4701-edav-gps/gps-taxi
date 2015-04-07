@@ -1,5 +1,7 @@
 ##Maps
-![map](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/bldg_distance.png)
+![map1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/bldg_distance.png)
+
+![map2](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/midtown_20130101.png)
 
 ##Plots
 ![plot_1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/plot_1.png)
