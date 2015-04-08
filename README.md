@@ -50,7 +50,8 @@
 
 * Consider no longer using Census Blocks as larger bocks have a tendency to have larger distances. Perhaps this should in fact be an overlayed GRID. 
 
-
+###DS 
+Create flag for Census Block as either Park or no buildings.
 
 EB, RC, SG, DS
 
