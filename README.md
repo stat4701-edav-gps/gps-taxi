@@ -7,10 +7,6 @@
 ![leg_map2](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/midtown_20130101_legend.png)
 
 ![Steve Map](img/gps_map_v02.png)
-
-##Plots
-![plot_1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/plot_1.png)
-
 ##Concept
 ###Google Earth screenshot
 ![img/ge.png](img/ge.png)
@@ -18,6 +14,10 @@
 ![img/3dbldg.png](img/3dbldg.png)
 ###Building Volume Spread over the entire neighborhood
 ![img/bulk.png](img/bulk.png)
+
+
+##Plots
+![plot_1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/plot_1.png)
 
 ##Input Spatial Data
 ###[Roadbed Data](https://data.cityofnewyork.us/City-Government/Roadbed/xgwd-7vhd)
@@ -37,9 +37,14 @@
 	* [01-split-xy-for-pickups-and-dropoffs.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/01-split-xy-for-pickups-and-dropoffs.ipynb)
 	* [02-bring-csv-to-shp.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/02-bring-csv-to-shp.ipynb)
 	* [03-csv-xy-intersect.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/03-csv-xy-intersect.ipynb)
-	* [04-combine-tables.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/04-combine-tables.ipynb)
-	* [05-plots.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/05-plots.ipynb)
-
+	* [04-ogr-shp-to-csv.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/04-ogr-shp-to-csv.ipynb)
+	* [05-combine-tables.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/05-combine-tables.ipynb)
+	* [06-concat-master.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/06-concat-master.ipynb)
+	* [07-collapse-geoid.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/07-collapse-geoid.ipynb)
+	* [10-plots.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/10-plots.ipynb)
+	* [11-plots-2.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/11-plots-2.ipynb)
+	* [12-map-plots.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/12-map-plots.ipynb)
+	
 #Completed Maps and Code
 
 #Data
@@ -54,6 +59,7 @@
 
 ###DS 
 Create flag for Census Block as either Park or no buildings.
+
 
 EB, RC, SG, DS
 
