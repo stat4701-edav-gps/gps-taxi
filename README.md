@@ -1,3 +1,7 @@
+#The Master Dataset
+[Download the Master Dataset 17-18 GB .csv file](https://www.dropbox.com/s/c1lcdjp8x66fehe/taxi_2013.csv?dl=0)
+
+
 #Working Maps and Code
 ##Maps
 ![map1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/bldg_distance.png)
