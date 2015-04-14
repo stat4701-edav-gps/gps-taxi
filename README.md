@@ -1,6 +1,9 @@
 #The Master Dataset
 [Download the Master Dataset 17-18 GB .csv file](https://www.dropbox.com/s/c1lcdjp8x66fehe/taxi_2013.csv?dl=0)
 
+##Latest Maps
+###Taxi 2013 Distance from Roadbed by Census Block 2010 & Taxi 2013 Count Taxi Pickup and Dropoffs by Census Block 2010
+[Click here for CartoDB Map on IPython Notebook](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/12-map-plots.ipynb)
 
 #Working Maps and Code
 ##Maps
