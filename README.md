@@ -6,6 +6,8 @@
 
 ![leg_map2](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/midtown_20130101_legend.png)
 
+![Steve Map](img/gps_map_v02.png)
+
 ##Plots
 ![plot_1](https://raw.githubusercontent.com/stat4701-edav-gps/gps-taxi/master/img/plot_1.png)
 
