@@ -107,8 +107,8 @@ Other Group tasks:
 
 * (RC, EB) Formulate questions for Prof. about analytical methods (regression vs. other methods).
 * (SG) Work on SQL queries for random selections (contingent on either database or SQL/csv wrapper). 
-* (All or someone volunteer to take lead getting started) Start the Presentation outline (https://github.com/stat4701-edav-gps/presentation) - can be edited inline via GitHub website. Edit README.md file.  
-* (All or someone volunteer to take lead on scheduling) Figure out which day/time/place for weekend of April 25-26. 
+* (All or someone could volunteer to take lead getting started) Start the Presentation outline (https://github.com/stat4701-edav-gps/presentation) - can be edited inline via GitHub website. Edit README.md file.  
+* (All or someone could volunteer to take lead on scheduling) Figure out which day/time/place for weekend of April 25-26. 
 
 
 Steve suggestion - log transform
