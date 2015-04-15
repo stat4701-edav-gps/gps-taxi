@@ -83,8 +83,6 @@
 	
 #To Do:
 
-* Consider no longer using Census Blocks as larger bocks have a tendency to have larger distances. Perhaps this should in fact be an overlayed GRID. 
-
 ###DS 
 Here’s the next steps I’m doing:
 New vars:
@@ -102,6 +100,11 @@ Database:
 * Coordinate with Amazon about possible Free account, setup PostgreSQL (SQLite or equiv. ) database.
 * Work with Sankara to get SQL queries to pull data out of database. 
 * Alternatively is this doesn’t work we can look into https://code.google.com/p/gcsvsql/
+
+Other Group tasks:
+
+* Formulate questions for Prof. about analytical methods (regression vs. other methods) - hopefully be able to ask by Thursday.
+* Figure out which day/time/place for weekend of April 25-26. 
 
 
 Steve suggestion - log transform
