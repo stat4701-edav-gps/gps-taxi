@@ -1,6 +1,8 @@
 #The Master Dataset
 [Download the Master Dataset 17-18 GB .csv file](https://www.dropbox.com/s/c1lcdjp8x66fehe/taxi_2013.csv?dl=0)
 
+[Download the **July** subset of the Master Dataset ~1.5 GB](https://www.dropbox.com/s/n640541r8qe52ie/taxi_2013_m07.csv?dl=0)
+
 ##Latest Maps
 ###Taxi 2013 Distance from Roadbed by Census Block 2010 & Taxi 2013 Count Taxi Pickup and Dropoffs by Census Block 2010
 [![Click here for CartoDB Map on IPython Notebook](img/cartodb_screenshot.png)](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/12-map-plots.ipynb)
@@ -71,10 +73,13 @@ Create Census Block Size variable.
 
 Create Median Distance value
 
+Steve suggestion - log transform
+
+####Complete
 Test sampling. 
 1 month. July. 
 
-Steve suggestion - log transform
+
 
 
 
