@@ -69,11 +69,12 @@ Create flag for Census Block as either Park or no buildings.
 
 Create Census Block Size variable. 
 
+Create Median Distance value
+
 Test sampling. 
 1 month. July. 
 
 Steve suggestion - log transform
-
 
 
 
