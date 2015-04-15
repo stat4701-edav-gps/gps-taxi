@@ -101,10 +101,14 @@ Database:
 * Work with Sankara to get SQL queries to pull data out of database. 
 * Alternatively is this doesn’t work we can look into https://code.google.com/p/gcsvsql/
 
+
+
 Other Group tasks:
 
-* Formulate questions for Prof. about analytical methods (regression vs. other methods) - hopefully be able to ask by Thursday.
-* Figure out which day/time/place for weekend of April 25-26. 
+* (RC, EB) Formulate questions for Prof. about analytical methods (regression vs. other methods) - hopefully be able to ask by Thursday.
+* (SG) Work on SQL queries for random selections (contingent on either database or SQL/csv wrapper). 
+* (All or someone volunteer to take lead getting started) Start the Presentation outline (https://github.com/stat4701-edav-gps/presentation) - can be edited inline via GitHub website. Edit README.md file.  
+* (All or someone volunteer to take lead on scheduling) Figure out which day/time/place for weekend of April 25-26. 
 
 
 Steve suggestion - log transform
