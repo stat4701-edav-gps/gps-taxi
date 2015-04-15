@@ -33,6 +33,23 @@
 
 ###[Census Blocks 2010 - NYC DCP](http://www.nyc.gov/html/dcp/download/bytes/nycb2010_11a.zip)
 
+####Get geoid code
+
+	def boroCountyFIPS(boro,tract,block):
+	  st = '36'
+	  if boro == 1:
+	    return st + '061' + tract + block
+	  elif boro == 2:
+	    return st + '005' + tract + block
+	  elif boro == 3:
+	    return st + '047' + tract + block
+	  elif boro == 4:
+	    return st + '081' + tract + block
+	  elif boro == 5:
+	    return st + '085' + tract + block
+	  else:
+	    return 'X' + tract + block
+
 ##Code and Repo's
 * [Emilie's Repo](https://github.com/embruze/edav/blob/gh-pages/_posts/2015-03-30-redsproject.md)
 
