@@ -1,8 +1,12 @@
 #The Master Dataset
 [Download the Master Dataset 17-18 GB .csv file](https://www.dropbox.com/s/c1lcdjp8x66fehe/taxi_2013.csv?dl=0)
 
+[Download the **July** subset of the Master Dataset ~1.5 GB](https://www.dropbox.com/s/n640541r8qe52ie/taxi_2013_m07.csv?dl=0)
+
 ##Big Query code
 	select tuid, count(*) from [taxitest.taxi5]  where type='d' group each by tuid having count(*) >1
+
+
 
 ##Latest Maps
 ###Taxi 2013 Distance from Roadbed by Census Block 2010 & Taxi 2013 Count Taxi Pickup and Dropoffs by Census Block 2010
@@ -32,6 +36,25 @@
 ##Input Spatial Data
 ###[Roadbed Data](https://data.cityofnewyork.us/City-Government/Roadbed/xgwd-7vhd)
 
+###[Census Blocks 2010 - NYC DCP](http://www.nyc.gov/html/dcp/download/bytes/nycb2010_11a.zip)
+
+####Get geoid code
+
+	def boroCountyFIPS(boro,tract,block):
+	  st = '36'
+	  if boro == 1:
+	    return st + '061' + tract + block
+	  elif boro == 2:
+	    return st + '005' + tract + block
+	  elif boro == 3:
+	    return st + '047' + tract + block
+	  elif boro == 4:
+	    return st + '081' + tract + block
+	  elif boro == 5:
+	    return st + '085' + tract + block
+	  else:
+	    return 'X' + tract + block
+
 ##Code and Repo's
 * [Emilie's Repo](https://github.com/embruze/edav/blob/gh-pages/_posts/2015-03-30-redsproject.md)
 
@@ -50,7 +73,8 @@
 	* [04-ogr-shp-to-csv.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/04-ogr-shp-to-csv.ipynb)
 	* [05-combine-tables.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/05-combine-tables.ipynb)
 	* [06-concat-master.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/06-concat-master.ipynb)
-	* [07-collapse-geoid.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/07-collapse-geoid.ipynb)
+	* [07-create-sample.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/07-create-sample.ipynb)
+	* [08-collapse-geoid.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/08-collapse-geoid.ipynb)
 	* [10-plots.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/10-plots.ipynb)
 	* [11-plots-2.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/11-plots-2.ipynb)
 	* [12-map-plots.ipynb](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/12-map-plots.ipynb)
@@ -65,10 +89,42 @@
 	
 #To Do:
 
-* Consider no longer using Census Blocks as larger bocks have a tendency to have larger distances. Perhaps this should in fact be an overlayed GRID. 
-
 ###DS 
-Create flag for Census Block as either Park or no buildings.
+Here’s the next steps I’m doing:
+New vars:
+
+* Create Census Block flag variable for Park or No Park 
+* Create Census Block flag variable for Buildings or no Buildings.
+* Create Census Block Size variable. (Maybe also measure of possible maximum distance across block, or measure of block compactness) 
+
+New Maps:
+
+* Create Median Distance to Roadbed groupby dataset.
+
+Database:
+
+* Coordinate with Amazon about possible Free account, setup PostgreSQL (SQLite or equiv. ) database.
+* Work with Sankara to get SQL queries to pull data out of database. 
+* Alternatively is this doesn’t work we can look into https://code.google.com/p/gcsvsql/
+
+
+
+Other Group tasks:
+
+* (RC, EB) Formulate questions for Prof. about analytical methods (regression vs. other methods).
+* (SG) Work on SQL queries for random selections (contingent on either database or SQL/csv wrapper). 
+* (All or someone could volunteer to take lead getting started) Start the Presentation outline (https://github.com/stat4701-edav-gps/presentation) - can be edited inline via GitHub website. Edit README.md file.  
+* (All or someone could volunteer to take lead on scheduling) Figure out which day/time/place for weekend of April 25-26. 
+
+
+Steve suggestion - log transform
+
+####Complete
+Test sampling. 
+1 month. July. 
+
+
+
 
 
 EB, RC, SG, DS
