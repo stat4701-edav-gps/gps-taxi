@@ -1,6 +1,6 @@
 #Regressions
 
-Distributed Building Hieght vs. Average Block Roadbed Distance
+Distributed Building Height (Meters) vs. Average Block Roadbed Distance (Feet)
 
 "dist_bldg_hght" = building_block_int_dis_tbl_bulkdens
 
@@ -19,6 +19,10 @@ Here is the query I used. Blocks larger than 50,000 sq ft and smaller than 300,0
 
 	df = df[(df.building_block_int_dis_tbl_bulkdens >= 3)]
 
+
+
+##Look at:
+Steve: Not just correlation coefficients. Look at standard error. Look at the original distribution too via histogram
 
 #The Master Dataset
 [Download the Master Dataset 17-18 GB .csv file](https://www.dropbox.com/s/c1lcdjp8x66fehe/taxi_2013.csv?dl=0)
