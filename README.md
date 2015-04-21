@@ -27,7 +27,7 @@ Here is the query I used. Blocks larger than 50,000 sq ft and smaller than 300,0
 
 ##Latest Maps
 ###Taxi 2013 Distance from Roadbed by Census Block 2010 & Taxi 2013 Count Taxi Pickup and Dropoffs by Census Block 2010
-[![Click here for CartoDB Map on IPython Notebook](img/cartodb_screenshot.png)](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/12-map-plots.ipynb)
+[![Click here for CartoDB Map on IPython Notebook](img/cartodb_screenshot.png)](http://nbviewer.ipython.org/github/nygeog/taxi/blob/master/tasks/201504_stat4701/22-map-plots.ipynb)
 
 #Working Maps and Code
 ##Maps
