@@ -1,5 +1,10 @@
 #Regressions
 
+Distributed Building Hieght vs. Average Block Roadbed Distance
+
+"dist_bldg_hght" = building_block_int_dis_tbl_bulkdens
+
+
 ![all records](img/figure_all.png)
 
 ![queryl records](img/figure_query.png)
