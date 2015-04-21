@@ -3,6 +3,7 @@
 ![all records](img/figure_all.png)
 
 ![queryl records](img/figure_query.png)
+Here is the query I used. Blocks larger than 50,000 sq ft and smaller than 300,000 sq ft. At least 1 building and bulkdens >=3.
 
 	dfs = dfs[(dfs.areasqft >= 50000)]
 	dfs = dfs[(dfs.areasqft <= 300000)]
