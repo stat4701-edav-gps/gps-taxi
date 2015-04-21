@@ -2,7 +2,7 @@
 
 ![all records](img/figure_all.png)
 
-![queryl records](img/figure_all.png)
+![queryl records](img/figure_query.png)
 
 	dfs = dfs[(dfs.areasqft >= 50000)]
 	dfs = dfs[(dfs.areasqft <= 300000)]
