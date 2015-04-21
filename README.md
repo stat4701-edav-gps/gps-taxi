@@ -19,7 +19,7 @@ Here is the query I used. Blocks larger than 50,000 sq ft and smaller than 300,0
 
 	df = df[(df.building_block_int_dis_tbl_bulkdens >= 3)]
 
-
+For dist_bldg_hght, see 01-int-bldg-blocks-calc-bldg-volume.py script from GPS Project under BEH. 
 
 ##Look at:
 Steve: Not just correlation coefficients. Look at standard error. Look at the original distribution too via histogram
