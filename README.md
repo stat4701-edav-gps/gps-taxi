@@ -1,3 +1,19 @@
+#Regressions
+
+![all records](img/figure_all.png)
+
+![queryl records](img/figure_all.png)
+
+	dfs = dfs[(dfs.areasqft >= 50000)]
+	dfs = dfs[(dfs.areasqft <= 300000)]
+
+	dfs = dfs[(dfs.countbldg >= 1)]
+
+	df = dfs.merge(dfb, on='geoid', how='left')
+
+	df = df[(df.building_block_int_dis_tbl_bulkdens >= 3)]
+
+
 #The Master Dataset
 [Download the Master Dataset 17-18 GB .csv file](https://www.dropbox.com/s/c1lcdjp8x66fehe/taxi_2013.csv?dl=0)
 
