@@ -71,7 +71,7 @@ Steve: Not just correlation coefficients. Look at standard error. Look at the or
 
 ###[Census Blocks 2010 - NYC DCP](http://www.nyc.gov/html/dcp/download/bytes/nycb2010_11a.zip)
 
-####Get geoid code
+####Get geoid codez
 
 	def boroCountyFIPS(boro,tract,block):
 	  st = '36'
