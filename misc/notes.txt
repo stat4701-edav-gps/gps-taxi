@@ -1,0 +1,8 @@
+350 million
+
+347 million
+
+So 3 million GPS XY's do not land in valid Census Blocks. Is this true? Does this make sense? 
+
+
+
